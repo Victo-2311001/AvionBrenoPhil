@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\DepotProg\\AvionBiblio\\AvionConsole\\AvionConsole.csproj": {}
+    "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\AvionBrenoPhil\\AvionBiblio\\AvionConsole\\AvionConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\DepotProg\\AvionBiblio\\AvionConsole\\AvionConsole.csproj": {
+    "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\AvionBrenoPhil\\AvionBiblio\\AvionConsole\\AvionConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\DepotProg\\AvionBiblio\\AvionConsole\\AvionConsole.csproj",
+        "projectUniqueName": "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\AvionBrenoPhil\\AvionBiblio\\AvionConsole\\AvionConsole.csproj",
         "projectName": "AvionConsole",
-        "projectPath": "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\DepotProg\\AvionBiblio\\AvionConsole\\AvionConsole.csproj",
+        "projectPath": "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\AvionBrenoPhil\\AvionBiblio\\AvionConsole\\AvionConsole.csproj",
         "packagesPath": "C:\\Users\\brebr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\DepotProg\\AvionBiblio\\AvionConsole\\obj\\",
+        "outputPath": "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\AvionBrenoPhil\\AvionBiblio\\AvionConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brebr\\AppData\\Roaming\\NuGet\\NuGet.Config",

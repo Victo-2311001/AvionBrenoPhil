@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\DepotProg\\AvionBiblio\\AvionBiblio\\AvionBiblio.csproj": {}
+    "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\AvionBrenoPhil\\AvionBiblio\\AvionBiblio\\AvionBiblio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\DepotProg\\AvionBiblio\\AvionBiblio\\AvionBiblio.csproj": {
+    "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\AvionBrenoPhil\\AvionBiblio\\AvionBiblio\\AvionBiblio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\DepotProg\\AvionBiblio\\AvionBiblio\\AvionBiblio.csproj",
+        "projectUniqueName": "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\AvionBrenoPhil\\AvionBiblio\\AvionBiblio\\AvionBiblio.csproj",
         "projectName": "AvionBiblio",
-        "projectPath": "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\DepotProg\\AvionBiblio\\AvionBiblio\\AvionBiblio.csproj",
+        "projectPath": "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\AvionBrenoPhil\\AvionBiblio\\AvionBiblio\\AvionBiblio.csproj",
         "packagesPath": "C:\\Users\\brebr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\DepotProg\\AvionBiblio\\AvionBiblio\\obj\\",
+        "outputPath": "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\AvionBrenoPhil\\AvionBiblio\\AvionBiblio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brebr\\AppData\\Roaming\\NuGet\\NuGet.Config",
