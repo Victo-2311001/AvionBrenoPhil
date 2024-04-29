@@ -60,6 +60,7 @@ namespace AvionBiblio
                 {
                     throw new ArgumentOutOfRangeException("L'âge ne peut pas être moins que 0");
                 }
+
                 _agePassager = value;
             }
         }
@@ -81,6 +82,7 @@ namespace AvionBiblio
                 {
                     throw new ArgumentOutOfRangeException("Les coordonées des sieges ne peuvent pas être vide");
                 }
+
                 _cdnSiege = value;
             }
         }

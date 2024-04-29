@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace AvionBiblio
 {
-    internal class Siege
+    public class Siege
     {
+
     }
 }
