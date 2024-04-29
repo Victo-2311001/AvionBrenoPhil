@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AvionBiblio
 {
-    internal class Passagers
+    public class Passagers
     {
     }
 }
