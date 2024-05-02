@@ -19,7 +19,6 @@ namespace AvionBiblio
         }
 
         private Classe _classes;
-
         private Siege[] _sections;
 
 
@@ -27,13 +26,16 @@ namespace AvionBiblio
         /// Constructeur d'une section de l'avion, avec 2 paramètres 
         /// </summary>
         /// <param name="nbrSiege"> La quantité de siège dans une section. Pas moins que 2 </param>
-        /// <param name="_classes"> La categorie de la session (Prémière, réguliere ou économique </param>
+        /// <param name="classes"> La categorie de la section (Prémière, réguliere ou économique </param>
         public Section(int nbrSiege, Classe classes)
         {
             Classes = classes;
             Sections = new Siege[nbrSiege];
         }
 
+        /// <summary>
+        /// Classe de la section = premiére, régulière ou économique.
+        /// </summary>
         public Classe Classes
         {
             get => _classes;
@@ -47,12 +49,19 @@ namespace AvionBiblio
             }
         }
 
+        /// <summary>
+        /// Tableau de sièges, de 2 à 3 sièges.
+        /// </summary>
         public Siege[] Sections 
         { 
             get => _sections;
             private set
             {
-                
+                if(value.Length < 2 || value.Length > 3)
+                {
+                    throw new ArgumentOutOfRangeException("La section doit avoir minimum 2 sièges et maximum 3 sièeges");
+                }
+
                 _sections = value;
             }
         }
