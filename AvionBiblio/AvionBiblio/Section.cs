@@ -13,9 +13,9 @@ namespace AvionBiblio
     {
         public enum Classe
         {
-            premiére,
-            régulière,
-            économique
+            premiere,
+            reguliere,
+            economique
         }
 
         private Classe _classes;
@@ -33,6 +33,35 @@ namespace AvionBiblio
             Sections = new Siege[nbrSiege];
         }
 
+        //----------
+        //Méthodes
+        //----------
+
+        /// <summary>
+        /// Méthode pour ajouter un siège dans une section
+        ///
+        /// </summary>
+        /// <param name="siegeAjouter"> Le siege à ajouters</param>
+        /// <exception cref="ArgumentException"> Si la section est remplie, la méthode vas lancer une exception pour dire l'état de la section </exception>
+        public void AjouterSiegeDansSection(Siege siegeAjouter)
+        {
+            bool ajout = false;
+
+            for (int i = 0; i < _sections.Length; i++)
+            {
+                if (_sections[i] == null)
+                {
+                    _sections[i] = siegeAjouter;
+                    ajout = true;
+                }
+                
+                if(ajout == false)
+                {
+                    throw new ArgumentException("La section est complète");
+                }
+            }
+        }
+
         /// <summary>
         /// Classe de la section = premiére, régulière ou économique.
         /// </summary>
@@ -41,7 +70,7 @@ namespace AvionBiblio
             get => _classes;
             private set
             {
-                if (value != Classe.premiére || value != Classe.régulière || value != Classe.économique)
+                if (value != Classe.premiere || value != Classe.reguliere || value != Classe.economique)
                 {
                     throw new ArgumentException("La valeur de la classe n'est pas correct, Vous devez choisir entre premiére, régulière ou économique");
                 }
