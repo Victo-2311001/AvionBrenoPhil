@@ -12,13 +12,13 @@ namespace AvionBiblio
     public class Siege
     {
        
-       public enum _categorie
+       public enum Categorie
        {
             Premiere,
             Reguliere,
             Economique
        }
-        private _categorie _categories;
+        private Categorie _categories;
         private int _codeSiege;
         private Passagers _passager;
 
@@ -29,7 +29,7 @@ namespace AvionBiblio
         /// <param name="codeSiege">attribut codeSiege</param>
         /// <param name="passager">attribut passager</param>
 
-        public Siege(_categorie categories, int codeSiege, Passagers passager)
+        public Siege(Categorie categories, int codeSiege, Passagers passager)
         {
             Categories = categories;
             CodeSiege = codeSiege;
@@ -42,10 +42,13 @@ namespace AvionBiblio
         /// accesseur des categories
         /// </summary>
 
-        private _categorie Categories
+        private Categorie Categories
         { 
             get => _categories;
-            set => _categories = value; 
+            set
+            {
+                _categories = value;
+            }
         }
 
         /// <summary>
@@ -54,7 +57,10 @@ namespace AvionBiblio
         public int CodeSiege 
         { 
             get => _codeSiege;
-            set => _codeSiege = value;
+            private set
+            {
+                _codeSiege = value;
+            }
         }
     }
 }
