@@ -62,6 +62,10 @@ namespace AvionBiblio
             }
         }
 
+        //----------
+        //Fin Méthodes ----------
+        //----------
+
         /// <summary>
         /// Classe de la section = premiére, régulière ou économique.
         /// </summary>
@@ -88,7 +92,7 @@ namespace AvionBiblio
             {
                 if(value.Length < 2 || value.Length > 3)
                 {
-                    throw new ArgumentOutOfRangeException("La section doit avoir minimum 2 sièges et maximum 3 sièeges");
+                    throw new ArgumentOutOfRangeException("La section doit avoir minimum 2 sièges et maximum 3 sièges");
                 }
 
                 _sections = value;
