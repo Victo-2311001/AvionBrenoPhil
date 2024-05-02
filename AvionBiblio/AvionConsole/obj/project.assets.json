@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\brebr\\.nuget\\packages\\": {}
+    "C:\\Users\\Pbeau\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\DepotProg\\AvionBiblio\\AvionConsole\\AvionConsole.csproj",
+      "projectUniqueName": "C:\\Users\\Pbeau\\OneDrive\\Bureau\\AvionBrenoPhil\\AvionBiblio\\AvionConsole\\AvionConsole.csproj",
       "projectName": "AvionConsole",
-      "projectPath": "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\DepotProg\\AvionBiblio\\AvionConsole\\AvionConsole.csproj",
-      "packagesPath": "C:\\Users\\brebr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brebr\\OneDrive\\Área de Trabalho\\DepotProg\\AvionBiblio\\AvionConsole\\obj\\",
+      "projectPath": "C:\\Users\\Pbeau\\OneDrive\\Bureau\\AvionBrenoPhil\\AvionBiblio\\AvionConsole\\AvionConsole.csproj",
+      "packagesPath": "C:\\Users\\Pbeau\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Pbeau\\OneDrive\\Bureau\\AvionBrenoPhil\\AvionBiblio\\AvionConsole\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\brebr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Pbeau\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
