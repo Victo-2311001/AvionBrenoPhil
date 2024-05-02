@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace AvionBiblio
 {
-    public class Passagers
+    public class Ranger
     {
+        char[] ranger = new char[]  {'A','B','C',' ', 'D', 'E', 'F' };
+        
+      
     }
 }
